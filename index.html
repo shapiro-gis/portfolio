@@ -1,903 +1,536 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<!--  
+<link href="images/favicon.png" rel="icon" />-->
+<title>Jessie Shapiro</title>
+<meta name="description" content="Callum is responsive bootstrap 5 one page personal portfolio html template.">
+<meta name="author" content="harnishdesign.net">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Jessie Shapiro</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Web Fonts -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Stylesheet
+============================== -->
+<!-- Animate -->
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css" />
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
-
-    <!-- script
-    ================================================== -->
-    <script defer src="js/vendor/fontawesome/all.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
-      <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css"><!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 </head>
-
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3G1D8HFHZ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3G1D8HFHZ0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-3G1D8HFHZ0');
+    </script>
+    
+    <body id="top" class="ss-preload">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
-  gtag('config', 'G-3G1D8HFHZ0');
-</script>
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
 
-<body id="top" class="ss-preload">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-        <div class="row s-header__nav-wrap">
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
-                    <li><a class="smoothscroll" href="#about">About</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </div> <!-- end row -->
-        
-        <a class="s-header__menu-toggle" href="#0" title="Menu">
-            <span class="s-header__menu-icon"></span>
-        </a>
-    </header> <!-- end s-header -->
-
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
-
-        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <div class="s-hero__content-about">
-
-                    <h1 style = "font-family: Poppins, sans-serif; font-size: 80px;"
-                    >Jessie Shapiro</h1>
-
-                    <h3  style = "font-family: Poppins, sans-serif;">
-                    Spatial Data Scientist
-                    </h3>
-
-
-                </div> <!-- end s-hero__content-about -->
-
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-none navbar-overlay navbar-text-light bg-transparent border-bottom-0 text-5 fw-600">
+      <div class="container"> 
+        <!-- Logo 
+        <a class="logo" href="index.html" title="Jessie Shapiro"> <img src="images/logo-light.png" alt="Callum"/>Shapiro GIS</a> --> 
+        <!-- Logo End 
+        <div class="text-3 text-white ms-auto me-2"><span class="text-4 me-2"><i class="fas fa-phone"></i></span>(060) 444 434 444</div>-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+        <div id="header-nav" class="collapse navbar-collapse">
+          <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" 	href="#about">About Me</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#news">In the News</a></li>
+            </ul>
+   
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================================= -->
+  <div id="content" role="main"> 
+    
+    <!-- Intro
+    ============================================= -->
+    <section id="home">
+      <div class="hero-wrap position-relative">
+        <div class="hero-mask opacity-6 bg-dark"></div>
+        <div class="hero-bg parallax" style="background-image:url('images/Copy of DSC_7178.jpg');"></div>
+        <div class="hero-content d-flex fullscreen py-5">
+          <div class="container my-auto py-4">
+            <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
+              <h1 class="text-12 fw-300 mb-0 text-uppercase" style="color:white !important;">Hi, I'm Jessie Shapiro</h1>
+              <div class="typed-strings">
+                <p style="color:white !important;">Developer</p>
+                <p style="color:white !important;">Scientist</p>
+                <p style="color:white !important;">Analyst</p>
+              </div>
+              <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1" style="color:white !important;"><span class="typed"></span></h2>
+              <p class="text-5" style="color:white !important;">applying geospatial technology to wildlife conservation and management.</p>
+              <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Work</a>
+           <!--   <a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>-->
             </div>
-        </div> <!-- s-hero__content -->
-
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                <span class="scroll-arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
-                </span>
-                <span class="scroll-text">Learn More</span>
-            </a>
-        </div> <!-- s-hero__scroll -->
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
+          </div>
+          <a href="#about" class="scroll-down-arrow text-light smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a>
+        </div>
+        <div class="image-citation">Photo by Ashley Townsend</div>
+      </div>
+    </section>
+    
+    <!-- Intro end --> 
+    
+    <!-- About
+    ============================================= -->
+    <section id="about" class="section">
+      <div class="container"> 
+        <!-- Heading -->
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">About Me</h2>
+        <!-- Heading end-->
+        
         <div class="row">
-            <div class="column large-3 tab-12">
-                <img class="s-about__pic" src="images/avatars/user-06.jpg" alt="">
+          <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
+            <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Jessie Shapiro</span></h2>
+            <p class="text-5">My name is Jessie Shapiro, and I am a dedicated and professional GIS Developer based in Salt Lake City, UT, with over five years of experience. My work focuses on building robust geospatial databases and developing seamless integrations to power web applications. I am skilled at creating user-friendly interfaces for these applications, allowing users to interact intuitively with spatial data.</p>
+              
+            <p class="text-5"> I am deeply passionate about applying GIS to fields like wildlife ecology and natural resource management. My expertise spans executing spatial analysis and managing geospatial data across various platforms, including ESRI’s ArcGIS, Google Cloud Platform, .NET Framework, and Umbraco CMS. With a versatile technical skill set, I adapt quickly to meet the needs of diverse projects and deliver impactful, data-driven solutions.</p>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="featured-box style-4">
+              <div class="text-center align-self-center mb-4 mb-lg-0 order-0 ">
+                <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"> <img class="img-fluid rounded-pill d-block" src="images/user-06.jpg" title="I'm Callum" alt=""></div>
+              </div>
             </div>
-            <div class="column large-9 tab-12 s-about__content">
-                <h3>About Me</h3>
-                <p>
-My name is Jessie Shapiro, and I am a dedicated and professional GIS Developer based in Salt Lake City, UT, with over five years of experience. My work focuses on building robust geospatial databases and developing seamless integrations to power web applications. I am skilled at creating user-friendly interfaces for these applications, allowing users to interact intuitively with spatial data.
-
-I am deeply passionate about applying GIS to fields like wildlife ecology and natural resource management. My expertise spans executing spatial analysis and managing geospatial data across various platforms, including ESRI’s ArcGIS, Google Cloud Platform, .NET Framework, and Umbraco CMS. With a versatile technical skill set, I adapt quickly to meet the needs of diverse projects and deliver impactful, data-driven solutions.                </p>
-
-                <hr>
-
-                <div class="row s-about__content-bottom">
-                    <div class="column w-1000-stack">
-                        <h3>Contact Details</h3>
-    
-                        <p>
-                        Jessie Shapiro <br>
-                        <a href="mailto:#0">jessieshap@gmail.com</a>
-                        </p>
-                        
-                    </div>
-                    <div class="column w-1000-stack">
-                        <a href="JessieShapiro_Resume.pdf" class="btn btn--download" download="JessieShapiro_Resume.pdf">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
-                                <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
-                            </svg>
-                            Download CV
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div> <!-- end row -->
-
-    </section> <!-- end s-about -->
-
-
-    
-
-
-    <section id="portfolio" class="s-portfolio target-section">
-
-        <div class="row s-portfolio__header">
-            <div class="column large-12">
-                <h3>Portfolio</h3>
-            </div>
+       
+          </div>
         </div>
-        <!-- Portfolio Filter Buttons Container -->
-        <div class="portfolio-filters" style="display: flex; justify-content: center; align-items: center;">
-            <button class="filter-btn" data-filter="*">All</button>
-            <button class="filter-btn" data-filter=".apps">Web Apps</button>
-            <button class="filter-btn" data-filter=".database">Database Mgmt</button>
-            <button class="filter-btn" data-filter=".analysis">Spatial Analysis</button>
+        <div class="row gy-3 mt-4">
+          <div class="col-6 col-lg-3 wow fadeInUp">
+            <p class="text-muted fw-500 mb-0">Name:</p>
+            <p class="text-4 text-dark fw-600 mb-0">Jessie Shapiro</p>
+          </div>
+          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+            <p class="text-muted fw-500 mb-0">Email:</p>
+            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="">jessieshap@gmail.com</a></p>
+          </div>
+
+          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <p class="text-muted fw-500 mb-0">From:</p>
+            <p class="text-4 text-dark fw-600 mb-0">Salt Lake City, UT</p>
+          </div>
         </div>
-
-                
-
-        <div class="row collapse block-large-1-3 block-large-1-3 block-tab-1-2 block-500-stack folio-list">
+      </div>
+    </section>
+    <!-- About end --> 
     
-            <!-- GIS Hub-->
-            <div class="column folio-item apps database">
-                <a href="#modal-01" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-2.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-2.jpg 1x, 
-                                 images/portfolio/gallery/portfolio-2.jpg 2x" alt="">
-
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Migration Timing-->
-            <div class="column folio-item apps">
-                <a href="#modal-02" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-1.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-1.jpg 1x, 
-                         images/portfolio/gallery/portfolio-1.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!--Wildlife Move Tools-->
-            <div class="column folio-item apps">
-                <a href="#modal-03" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-5.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-5.jpg 1x, 
-                         images/portfolio/gallery/portfolio-5.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- R Shiny App-->
-            <div class="column folio-item apps">
-                <a href="#modal-04" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-3.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-3.jpg 1x, 
-                         images/portfolio/gallery/portfolio-3.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Wildlife Tracker-->
-            <div class="column folio-item apps database">
-                <a href="#modal-05" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-4.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-4.jpg 1x, 
-                         images/portfolio/gallery/portfolio-4.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Invasive Species Mapping-->
-            <div class="column folio-item database apps">
-                <a href="#modal-06" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-6.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-6.jpg 1x, 
-                         images/portfolio/gallery/portfolio-6.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Agent Based Model-->
-            <div class="column folio-item analysis">
-                <a href="#modal-07" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-7.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-7.jpg 1x, 
-                         images/portfolio/gallery/portfolio-7.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Cloud Functions-->
-            <div class="column folio-item apps">
-                <a href="#modal-08" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-8.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-8.jpg 1x, 
-                         images/portfolio/gallery/portfolio-8.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-
-                        <!-- Corridors-->
-            <div class="column folio-item analysis">
-                <a href="#modal-09" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-9.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-9.jpg 1x, 
-                         images/portfolio/gallery/portfolio-9.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item analysis">
-                <a href="#modal-10" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portoflio-10.jpg" 
-                         srcset="images/portfolio/gallery/portoflio-10.jpg 1x, 
-                         images/portfolio/gallery/portoflio-10.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <!-- Avian Nest-->
-            <div class="column folio-item database">
-                <a href="#modal-11" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-11.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-11.jpg 1x, 
-                         images/portfolio/gallery/portfolio-11.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item database">
-                <a href="#modal-12" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-12.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-12.jpg 1x, 
-                         images/portfolio/gallery/portfolio-12.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item analysis">
-                <a href="#modal-13" class="folio-item__thumb">
-                    <img src="images/portfolio/gallery/portfolio-13.jpg" 
-                         srcset="images/portfolio/gallery/portfolio-13.jpg 1x, 
-                         images/portfolio/gallery/portfolio-13.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-        </div> <!-- end folio-list -->
-
-
-        <!-- Modal Templates Popup
-        =========================================================== -->
-        <div id="modal-01" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-2.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Wyoming & GYE GIS Hub</h5>
-                    <p>Developed a curated GIS repository of enviornmental datasets for the Wyoming scale. Visit site at
-                    <a href = "https://wildlifemovetools.org/gis">wildlifemovetools.org/gis</a></p>
-                    <ul class="modal-popup__cat">
-                        <li>JavaScript</li>
-                        <li>C#</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Object-Oriented Storage</li>
-                        <li>Postgres</li>
-
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-02" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-1.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Migration Timing Dashboard</h5>
-                    <p>
-                        The Migration Timing dashboard provides key metrics for wildlife migrations in Utah. Migration dates for wildlife are updated from real-time GPS tracking data. Metrics are calculated using BigQuery GIS functions and connected directly to a repository of GPS tracking data of migrating animals. The dashboard summarizes migration timing in Utah, that was not possible before. 
-
-
-
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>SQL, Looker Studio</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-03" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-5.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Wildlife Move Tools</h5>
-                    <p>
-                        Developed wildlifemovetools.org to host freely accessible geospatial data and a range of web application tools tailored for wildlife research and conservation in Wyoming and GYE. Visit site at
-                    <a href = "https://wildlifemovetools.org">wildlifemovetools.org</a></p>
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>JavaScript, HTML, CSS</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-04" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-3.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Migration Tracking R Shiny App</h5>
-                    <p>
-                        Develop an R Shiny application to analyze movement patterns and assign migration dates for GPS collared ungulates. The application is connected directly to the Wildlife Tracker database hosted in the Google Cloud Platform, creating an efficient and seamless workflow for Utah. 
-                        Users query and assign dates through an interactive map and NSD plots. Assigned dates are uploaded directly to GCP where further analysis can be run in the cloud environment.                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>R</li>
-                        <li>R Shiny</li>
-                        <li>SQL</li>
-                        <li>API</li>
-
-                    </ul>
-                </div>
-                </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-05" hidden>
-            <div class="modal-popup">
-
-                <img src="images/portfolio/gallery/portfolio-4.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Wildlife Tracker</h5>
-                    <p>
-                        Project manager of the Wildlife Tracker system, a cloud tool used to store big data on GPS collared animal movements and visualize data through a front-end web application for the Utah Division of Wildlife Resources. Maintain the data warehouse of over 43,000,000 animal locations and 10,000 individual animals. Develop new features and enhancements to the Wildlife Tracking system, including data loading and validation. The system required skills in Google Cloud Services (Cloud Run, App Engine, BigQuery, Cloud Scheduler, Cloud Functions, Cloud Storage) and Python, SQL and Javascript. To learn more click here.
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>SQL, Python, BigQuery, Cloud Functions, Cloud Storage, API, Cloud Run</li>
-                    </ul>
-                </div>
-                </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-06" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-6.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Invasive Species Mapping</h5>
-                    <p>
-                        This work aims to develop a relational spatial database system for Forestry, Fire, and State Lands to monitor invasive species treatment and management efforts on Utah’s sovereign lands that integrate field collection efforts and improve data accessibility. 
-                        The database will serve as the backbone for managing associations between entities, use in-field observations, and have a flexible but controlled data-sharing environment that will help quantify and monitor invasive species effectively.                     </p>
-                    <ul class="modal-popup__cat">
-                        <li>ArcGIS</li>
-                        <li>Arcade</li>
-                        <li>Python</li>
-
-                    </ul>
-                </div>
-                </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-07" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-7.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Agent Based Model for Mule Deer Spring Migration</h5>
-                    <p>                        
-                        Mule deer spring migration is simulated in a Net logo model using an agent based model approach, which allows for a simple rule structure to determine mule deer interactions with environment. The ABM simulates behaviors of an individual’s decision to stay and leave a stop over site based on the resources available and energy expenditure. The emergent behavior from the model will provide insight into how mule deer explore stop over sites in times of good vegetation and poor.                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>Netlogo</li>
-                        <li>R</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-08" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-8.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Wildlife Tickers</h5>
-                    <p>Build and deploy a cloud function that pulls data from BigQuery and updates tickers on a public facing website. Development of the cloud function required skills in BigQuery, GCP, Python and SQL. </p>
-                    <ul class="modal-popup__cat">
-                        <li>Python, SQL, Cloud Functions, JavaScript</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-09" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-9.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Utah Migration Corridors</h5>
-                    <p>
-                        Analyze Utah Division of Wildlife Resource's movement data repository using Brownian Bridge Movement Models methods to map areas that facilitate movement. Optimize cloud resources by writing R Scripts to be ran in the GCP Vertex AI.                     
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>R, SQL, Cloud Vertex AI, ArcGIS</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-10" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portoflio-10.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>San Juan County Road Carcass Analysis</h5>
-                    <p>
-                        This report explores spatial patterns in mule deer road carcass reports in San Juan County, Utah for the four movement seasons. To mitigate for wildlife-vehicle collisions, state agenceis collaborated to build wildlife fencing and crossing structures in the high frequency collision sites. The effectiveness of these wildlife fencing was tested and at a broader spatial scale, variables of what might lead to collisions was modeled.                     </p>
-                    <ul class="modal-popup__cat">
-                        <li>R</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-
-        <div id="modal-11" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-11.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Avian Nest Spatial Database</h5>
-                    <p>
-                        Develop and design spatial relational database of avian nests on Army Garrison Camp Williams. A spatial database is needed to organize nest locations, history and survey areas so that managers can make thoughtful recommendations. Efforts streamlined data collection in the field. 
-
-                    
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>ArcGIS</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-
-        <div id="modal-12" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-12.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Cellular Tracking Technology Live Feed</h5>
-                    <p>
-                        Develop data feed that scrapes location data daily from avian tracking units in CTT accounts and uploads location data to BigQuery. Development of the data feed required skills in BigQuery, GCP, Python and SQL. 
-                    
-                    </p>
-                    <ul class="modal-popup__cat">
-                        <li>Python, Cloud Run</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-        <div id="modal-13" hidden>
-            <div class="modal-popup">
-                <img src="images/portfolio/gallery/portfolio-13.jpg" alt="" />
-    
-                <div class="modal-popup__desc">
-                    <h5>Lark Sparrow Nest Suitability</h5>
-                    <p>
-
-                        The spatial relationship between nest locations of lark sparrow's and environmental parameters such as vegetation, elevation, aspect and slope were investigated in a habitat suitability model. The predictive model is designed for application to the large study area on Camp Williams that represents preferential lark sparrow nesting habitat. The final habitat model is a weighted sum of the four environmental variables that were ranked based on expert opinion and data collection.                     </p>
-                    <ul class="modal-popup__cat">
-                        <li>Python, Cloud Run</li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div> <!-- end modal -->
-
-
-
-    </section> <!-- end s-portfolio -->
-
-    <!-- resume
-    ================================================== -->
-    <section id="resume" class="s-resume target-section">
+    <!-- Services
+    ============================================= -->
+    <section id="services" class="section bg-light">
+      <div class="container"> 
+        <!-- Heading-->
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">How I can help your next project</h2>
+        <!-- Heading end-->
         
-        <div class="row s-resume__section">
-            
-            
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Education</h3>
+        <div class="row gy-5 mt-5">
+          <div class="col-sm-6 col-lg-4 wow fadeInUp">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-pencil-ruler"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Database Management</h3>
+              <p class="text-muted mb-0">
+                I manage large-scale wildlife tracking and geospatial datasets using PostgreSQL/PostGIS. My work includes designing efficient schemas, optimizing spatial queries, and building systems that serve data directly to applications and spatial tools.I build pipelines that move data from collection through storage and into web-based tools and analytics.
+              </p>
             </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-desktop"></i></div>
+              <h3 class="text-6 fw-600 mb-3">Web Development</h3>
+              <p class="text-muted mb-0">
+                I develop interactive, map-based web applications powered by custom APIs. These APIs serve data with support for user permissions and fast data delivery. All systems are hosted on the same server infrastructure for seamless integration.
 
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Utah</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Master of Science in Geographic Information Science
-                            </span> 
-                            <span class="resume-block__header-date">
-                                August 2021
-                            </span>
-                        </p>
-                    </div>
-
-                </div> <!-- end resume-block -->
-
-                
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Montana</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Geographic Information Sciences and Technologies Certificate
-                            </span> 
-                            <span class="resume-block__header-date">
-                                July 2017
-                            </span>
-                        </p>
-                    </div>
-
-
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Montana</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Bachelor of Science in Wildlife Biology
-                            </span> 
-                            <span class="resume-block__header-date">
-                                May 2015
-                            </span>
-                        </p>
-                    </div>
-
-
-
-                </div> <!-- end resume-block -->
-
-
+              </p>
             </div>
-        </div> <!-- s-resume__section -->
-        
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Work Experience</h3>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-chart-area"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Spatial Analysis</h3>
+              <p class="text-muted mb-0">
+                With a background in wildlife management and GIS, I conduct advanced spatial analysis to support conservation decisions.I work with Python, R, and web-based tools to analyze animal movement, land use, and habitat connectivity across complex landscapes.
+              </p>
             </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Wyoming</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Research Scientist Associate</span> 
-                            <span class="resume-block__header-date">
-                                May 2023 - Present
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                   Develop and produce analytical workflows, technical assessments, interactive dashboards, and research to help manage and conserve big game habitat
-                        related to the wildlife management and conservation needs of USDA’s Working Lands for Wildlife Program and Wyoming Game and Fish Department.
-                        Additionaly provide analytical, data management, and research support for the Merkle Research Group, Wyoming Cooperative Fish and Wildlife Research Unit, Wyoming Migration Initiative, as well as state, federal, and NGO cooperators and partners.
-
-
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Utah Division of Wildlife Resources</h4>
-                        <p class="resume-block__header-meta">
-                            <span>GIS Developer</span> 
-                            <span class="resume-block__header-date">
-                                May 2021 - May 2023
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        Support technical geospatial, data, research and application developments and products for the Wildlife Migration Initiative. Manage, analyze and visualize big data using cloud computing. Perform research analysis and complete various GIS and research-based projects using R statistical packages, ESRI products, and GCP. Build customized solutions for processing wildlife movements with R Shiny apps.
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Utah Division of Wildlife Resources</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Wildlife Migration Technician</span> 
-                            <span class="resume-block__header-date">
-                               Oct 2019 - May 2021
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        Maintain, edit and ensure quality control of spatial databases of wildlife locations for the State of Utah. Create programming scripts that detect and repair problems in the data. Assist in the migration of spatial SQL database to google cloud platform and development of web applications. Map migration corridors and home ranges using Brownian Bridge Movement Model for Utah using R scripts. Prepare GIS data requests for regional staff and partners.                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Utah National Guard</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Wildlife Technician</span> 
-                            <span class="resume-block__header-date">
-                                April 2019 - Oct 2019
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        Developed relational spatial database for raptor and passerine survey. Develop web applications to streamline field data collection. Write and draft technical reports based on passerine demographics, raptor and vegetation surveys. Identify information from analyses that suggest developing patterns of problems or complaints from which general specific trends can be discerned, suggesting a need for further investigation.                                        </p>
-
-                </div> <!-- end resume-block -->
-
-                
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Idaho</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Data Technician</span> 
-                            <span class="resume-block__header-date">
-                                May 2018 - Sept 2019
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        Transcribe nesting burrowing owl behaviors. Perform literature searches on North American passerines for comparative analysis on latitudinal pattern in clutch size. Responsible for data management and entry of passerine nest data in MS Access.                    
-                    
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                           
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">City of West Jordan</h4>
-                        <p class="resume-block__header-meta">
-                            <span>GIS Internship</span> 
-                            <span class="resume-block__header-date">
-                                Sept 2018 - May 2019
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        Use a variety of geospatial tools to find, edit, digitize, geo-reference and display data using ESRI GIS software. Collaborate with management to see technical projects through from conception to completion.                    
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-
-
-
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Skills</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <p>
-                      <strong>Software: </strong>  ESRI ArcGIS (ArcGIS Pro, ArcGIS 9.3-10.7, ArcGIS Online, Survey123, Experience Builder, WebApp Builder, ArcServer, Field Maps), QGIS, R Studio, Google Cloud Platform (AI Notebooks, Cloud Functions, Cloud Run, GeoViz, Data Studio), Netlogo, Umbraco CMS
-                    </p>
-                        <p>
-                      <strong> Databases:</strong>  PostgreSQL, MS SQL Server, MS Access, BigQuery, Cloud SQL
-                    </p>
-                        <p>
-                      <strong> Web Visualization:</strong> Leaflet, Mapbox GL JS, deck.gl, Open Layers, ArcGIS API for Javascript
-                    </p>
-                    <p>
-                      <strong> Programming:</strong>  SQL, R, Python, JavaScript, HTML, CSS, C#, .NET
-                    </p>
-                    ​<p>
-                        <strong>Project Management: </strong>Trello, Asana, G Suite
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Conferences</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-
-                    <h5> <strong>UTTWS & CCTWS Annual Conference</strong></h5> 
-                    <span>Mapping Wildlife Movement in QGIS Workshop</span> 
-                    <span class="resume-block__header-date">
-                       March 2023
-                    </span>
-
-               
-                    <h5> <strong>ESRI UC</strong></h5> 
-                        <span>Improving Wildlife Management with GIS</span> 
-                        <span class="resume-block__header-date">
-                           July 2022
-                        </span>
-
-                        <h5> <strong>Utah Geographical Informational Council Annual Conference</strong></h5> 
-                        <span>Where's the Wildlife?</span> 
-                        <span class="resume-block__header-date">
-                           Oct 2021
-                        </span>
-                    
-                     
-                   
-                   
-
-                </div> <!-- end resume-block -->
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-    </section> <!-- end s-resume -->
-
-
-    <!-- portfolio
-    ================================================== -->
-        
-*/
-    <!-- testimonials
-    ================================================== 
-    <section id="testimonials" class="s-testimonials target-section">
-
-        <div class="s-testimonials__bg"></div>
-
-        <div class="row s-testimonials__header">
-            <div class="column large-12">
-                <h3>Services</h3>
-            </div>
-        </div>
-
-        <div class="row s-testimonials__content">
-
-            <div class="column">
-
-                <div class="swiper-container testimonial-slider">
-
-                    <div class="swiper-wrapper">
-
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Spatial Analysis</strong>
-                                </cite>
-                            </div>
-                            <p>
-                                Data exploration, application of statistical methods, reproducible data analysis. Programming languages used for data mining include R, SQL and Python.
-
-                            </p>
-                        </div>
-        
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                          <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar"> 
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Front-end Web Developer</strong>
-                                </cite>
-                            </div>
-                            <p>
-                                Creation of static and interactive dashboards. R/Shiny, Data Studio, ArcGIS Online used for developing web apps and dashboards.
-                            </p>
-                        </div> 
-        
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Database Design</strong>
-                                </cite>
-                            </div>
-                            <p>
-                                Data harvesting from sources like API and SQL databases, cleaning and reshaping of data. Development of automated workflows. 
-
-
-                            </p>
-                        </div> 
-
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Cloud Compute</strong>
-                                </cite>
-                            </div>
-                            <p>
-                                Data harvesting from sources like API and SQL databases, cleaning and reshaping of data. Development of automated workflows. 
-
-
-                            </p>
-                        </div> 
-    
-                    </div> 
-
-                    <div class="swiper-pagination"></div>
-
-                </div> 
-
-            </div> 
+          </div>
 
         </div>
+      </div>
+    </section>
+    <!-- Services end --> 
 
-    -->
+       <!-- Portfolio
+    ============================================= -->
+    <section id="portfolio" class="section">
+      <div class="container"> 
+        <!-- Heading -->
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Portfolio</h2>
+        <!-- Heading end--> 
+        
+        <!-- Filter Menu -->
+        <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp">
+          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="">All</a></li>
+          <li class="nav-item"> <a data-filter=".developer" href="" class="nav-link rounded-0">Web App Development</a></li>
+          <li class="nav-item"> <a data-filter=".dbmgmt" href="" class="nav-link rounded-0">Database Management</a></li>
+          <li class="nav-item"> <a data-filter=".analysis" href="" class="nav-link rounded-0">Spatial Analysis</a></li>
+        </ul>
+        <!-- Filter Menu end -->
+        <div class="portfolio wow fadeInUp">
+          <div class="row g-4 mt-3 portfolio-filter">
+            <div class="col-sm-6 col-lg-4 developer dbmgmt">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/fence-mapping.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-1.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Mapping and Prioritizing Fences</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 developer dbmgmt" data-wow-delay="0.2s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/gis.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-gis.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">GIS Repository</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 developer" data-wow-delay="0.3s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/conservation-tracker.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-conservation-tracker.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Conservation Tracker</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 developer">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/wildlifemovetools.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-wildlifemovetools.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Wildlife Move Tools</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 developer" data-wow-delay="0.2s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/parcels.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-parcels.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Parcel Prioritization Tool</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 analysis developer" data-wow-delay="0.2s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/widthcalc-results.png" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-width.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Width Analysis</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 dbmgmt" data-wow-delay="0.3s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/wildlifetracker.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-wildlifetracker.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Wildlife Tracker</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 analysis" data-wow-delay="0.3s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/corridors.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-migrationcorridor.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Migration Corridors</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 analysis developer" data-wow-delay="0.3s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/migrationtiming.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-migrationtiming.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Migration Timing</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 analysis developer" data-wow-delay="0.3s">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/rshinyapp.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-shinyapp.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Migration Tracking R Shiny App</h5>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio end --> 
+    
+    <!-- Resume
+    ============================================= -->
+    <section id="resume" class="section bg-light">
+      <div class="container"> 
+        <!-- Heading -->
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Resume</h2>
+        <!-- Heading end-->
+        
+        <div class="row g-5 mt-5"> 
+          <!-- My Education -->
+          <div class="col-lg-6 wow fadeInUp">
+            <h2 class="text-7 fw-600 mb-4 pb-2">Education</h2>
+            <div class="border-start border-2 border-primary ps-3">
+              <h3 class="text-5">Master of Science in Geographic Information Science</h3>
+              <p class="mb-2">University of Utah / August 2021</p>
+              <hr class="my-4">
+              <h3 class="text-5">Bachelor of Science in Wildlife Biology</h3>
+              <p class="mb-2">University of Montana / May 2015</p>
+              <hr class="my-4">
+              <h3 class="text-5">Geographic Information Sciences and Technologies Certificate</h3>
+              <p class="mb-2">University of Montana / July 2017</p>
+            </div>
+          </div>
+          <!-- My Experience -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <h2 class="text-7 fw-600 mb-4 pb-2">Experience</h2>
+            <div class="border-start border-2 border-primary ps-3">
+              <h3 class="text-5">Research Scientist Associate</h3>
+              <p class="mb-2">Univeristy of Wyoming / 2023 - Current</p>
+              <p class="text-muted">Develop and produce analytical workflows, technical assessments, interactive dashboards, and research to help manage and conserve big game habitat related to the wildlife management and conservation needs of USDA’s Working Lands for Wildlife Program and Wyoming Game and Fish Department. Additionaly provide analytical, data management, and research support for the Merkle Research Group, Wyoming Cooperative Fish and Wildlife Research Unit, Wyoming Migration Initiative, as well as state, federal, and NGO cooperators and partners.
+              </p>
+              <hr class="my-4">
+              <h3 class="text-5">Wildlife Migration GIS Specialist</h3>
+              <p class="mb-2">Utah Division of Wildlife Resources / 2021 - 2023</p>
+              <p class="text-muted">Support technical geospatial, data, research and application developments and products for the Wildlife Migration Initiative. Manage, analyze and visualize big data using cloud computing. Perform research analysis and complete various GIS and research-based projects using R statistical packages, ESRI products, and GCP. Build customized solutions for processing wildlife movements with R Shiny apps.
+              </p>
+              <hr class="my-4">
+              <h3 class="text-5">Wildlife Mgiration Technician</h3>
+              <p class="mb-2">Utah Division of Wildlife Resources / 2019 - 2021</p>
+              <p class="text-muted">Maintain, edit and ensure quality control of spatial databases of wildlife locations for the State of Utah. Create programming scripts that detect and repair problems in the data. Assist in the migration of spatial SQL database to google cloud platform and development of web applications. Map migration corridors and home ranges using Brownian Bridge Movement Model for Utah using R scripts. Prepare GIS data requests for regional staff and partners.
+              </p>
+              <hr class="my-4">
+              <h3 class="text-5">Wildlife Technician</h3>
+              <p class="mb-2">Utah National Guard/ 2019 - 2019</p>
+              <p class="text-muted">Developed relational spatial database for raptor and passerine survey. Develop web applications to streamline field data collection. Write and draft technical reports based on passerine demographics, raptor and vegetation surveys. Identify information from analyses that suggest developing patterns of problems or complaints from which general specific trends can be discerned, suggesting a need for further investigation.
+              </p>
+              <h3 class="text-5">Data Technician</h3>
+              <p class="mb-2">University of Idaho/ 2018 - 2019</p>
+              <p class="text-muted">Transcribe nesting burrowing owl behaviors. Perform literature searches on North American passerines for comparative analysis on latitudinal pattern in clutch size. Responsible for data management and entry of passerine nest data in MS Access.
+              </p>
+              <hr class="my-4">
+              <h3 class="text-5">GIS Internship</h3>
+              <p class="mb-2">City of West Jordan/ 2018 - 2019</p>
+              <p class="text-muted">Use a variety of geospatial tools to find, edit, digitize, geo-reference and display data using ESRI GIS software. Collaborate with management to see technical projects through from conception to completion.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- My Skills -->
+        <div class="row g-5 mt-5"> 
 
+        <div class="col-lg-6 wow fadeInUp">
+          <h2 class="text-7 fw-600 mb-4 pb-2">Skills</h2>
+          <div class=" ps-3">
+            <ul class="list-style-2">
+              <li><span class="text-dark fw-600 me-2">Databases:</span>PostgreSQL, MS SQL Server, MS Access, BigQuery, Cloud SQL</li>
+              <li><span class="text-dark fw-600 me-2">Programming:</span>SQL, R, Python, JavaScript, HTML, CSS, C#, .NET</li>
+              <li><span class="text-dark fw-600 me-2">Web Visualization:</span>Mapbox GL JS, deck.gl, Open Layers, Leaflet, ArcGIS API for Javascript</li>
+              <li><span class="text-dark fw-600 me-2">Software:</span> ESRI ArcGIS (ArcGIS Pro, ArcGIS 9.3-10.7, ArcGIS Online, Survey123, Experience Builder, ArcServer, Field Maps), QGIS, R Studio, Google Cloud Platform (AI Notebooks, Cloud Functions, Cloud Run, GeoViz, Data Studio), Netlogo, Umbraco CMS</li>
+              <li><span class="text-dark fw-600 me-2">Project Management:</span>Trello, Asana, G Suite</li>
+  
+  
+            </ul>
+          </div>
+        </div>
 
+        <div class="col-lg-6 wow fadeInUp">
+          <h2 class="text-7 fw-600 mb-4 pb-2">Conferences</h2>
+          <div class=" ps-3">
+            <ul class="list-style-2">
+              <li><span class="text-dark fw-600 me-2">WYTWS & COTWS Conference</span><br>
+                Web Tools for Advanced Decision Making / March 2025
+              </li>
+              <li><span class="text-dark fw-600 me-2">WY TWS Conference</span><br>
+                Web GIS / April 2024
+              </li>
+              <li><span class="text-dark fw-600 me-2">UTTWS & CCTWS Annual Conference</span><br>
+                Mapping Wildlife Movement in QGIS Workshop / March 2023
+              </li>
+              <li><span class="text-dark fw-600 me-2">ESRI UC</span><br>
+                Improving Wildlife Management with GIS / July 2022
+              </li>
+              <li><span class="text-dark fw-600 me-2">Utah Geographical Informational Council Annual Conference
+              </span><br>
+              Where's the Wildlife? / Oct 2021
+            </li>
+         
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+        <p class="text-center mt-5 wow fadeInUp"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+      </div>
+    </section>
+    <!-- Resume end --> 
+    
+    <section id="news" class="section">
+      <div class="container"> 
 
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">In the News</h2>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/news/amazingtrace.png" alt="News article 1">
+          <div class="card-body">
+            <h6 class="card-title">The Amazing Trace: protecting wildlife by using technology</h6>
+            <p class="card-text">How the Utah Wildlife Migration Initiative's geofencing and monitoring applications help bighorn sheep, mule deer and other species.            </p>
+            <a href="https://wildlife.utah.gov/wildlife-news/1560-capturing-pronghorn-in-southern-utah.html" class="btn btn-sm btn-outline-primary" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/news/cloudnews.png" alt="News article 2">
+          <div class="card-body">
+            <h6 class="card-title">How Utah Uses Google Cloud to Protect Wildlife</h6>
+            <p class="card-text">“We are now able to know and understand our wildlife so much better. We understand patterns of migration, causes of death, and can obtain individual data points for thousands of animals. It has opened our eyes to how the animals are using the landscape, and what interventions we need for their safety and protection.”</p>
+            <a href="https://link-to-article2.com" class="btn btn-sm btn-outline-primary" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+  <!-- Footer
+  ============================================= -->
+  <footer id="footer" class="section bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-start wow fadeInUp">
+        </div>
+        <div class="col-lg-6 wow fadeInUp">
+          <p class="mb-0 text-center text-sm-end">Designed by <a class="fw-100" href="http://www.harnishdesign.net/">Harnish Design</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back to Top
+============================================= --> 
+<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fas fa-arrow-up"></i></a> 
+
+<!-- JavaScript --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Easing --> 
+<script src="vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Appear --> 
+<script src="vendor/jquery.appear/jquery.appear.min.js"></script> 
+<!-- WOW animation --> 
+<script src="vendor/wow/wow.min.js"></script>
+<!-- Images Loaded --> 
+<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> 
+<!-- Typed --> 
+<script src="vendor/typed/typed.min.js"></script> 
+<!-- Parallax Bg --> 
+<script src="vendor/parallaxie/parallaxie.min.js"></script> 
+<!-- Owl Carousel --> 
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script> 
+<!-- isotope Portfolio Filter --> 
+<script src="vendor/isotope/isotope.pkgd.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Custom Script --> 
+<script src="js/theme.js"></script>
 </body>
-
 </html>
